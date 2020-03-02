@@ -1,0 +1,60 @@
+﻿state_code,county_code,county_name,bea_code,bea_name
+15,5,Kalawao County,15901,Maui and Kalawao
+15,9,Maui County,15901,Maui and Kalawao
+51,3,Albemarle County,51901,Albemarle + Charlottesville 
+51,540,Charlottesville city ,51901,Albemarle + Charlottesville 
+51,5,Alleghany County,51903,Alleghany + Covington 
+51,580,Covington city ,51903,Alleghany + Covington 
+51,15,Augusta County,51907,"Augusta, Staunton + Waynesboro "
+51,790,Staunton city ,51907,"Augusta, Staunton + Waynesboro "
+51,820,Waynesboro city ,51907,"Augusta, Staunton + Waynesboro "
+51,19,BedfordCounty,51909,Bedford + Bedford City
+51,515,Bedford city,51909,Bedford + Bedford City
+51,31,Campbell County,51911,Campbell + Lynchburg 
+51,680,Lynchburg city ,51911,Campbell + Lynchburg 
+51,35,Carroll County,51913,Carroll + Galax 
+51,640,Galax city ,51913,Carroll + Galax 
+51,53,Dinwiddie County,51918,"Dinwiddie, Colonial Heights + Petersburg "
+51,570,Colonial Heights city ,51918,"Dinwiddie, Colonial Heights + Petersburg "
+51,730,Petersburg city ,51918,"Dinwiddie, Colonial Heights + Petersburg "
+51,59,Fairfax County,51919,"Fairfax, Fairfax City + Falls Church "
+51,600,Fairfax City city ,51919,"Fairfax, Fairfax City + Falls Church "
+51,610,Falls Church city ,51919,"Fairfax, Fairfax City + Falls Church "
+51,69,Frederick County,51921,Frederick + Winchester 
+51,840,Winchester city ,51921,Frederick + Winchester 
+51,81,Greensville County,51923,Greensville + Emporia 
+51,595,Emporia city ,51923,Greensville + Emporia 
+51,83,HalifaxCounty,51925,Halifax + South Boston
+51,780,South Boston city,51925,Halifax + South Boston
+51,89,Henry County,51929,Henry + Martinsville 
+51,690,Martinsville city ,51929,Henry + Martinsville 
+51,95,James City ,51931,James City + Williamsburg 
+51,830,Williamsburg city ,51931,James City + Williamsburg 
+51,121,Montgomery County,51933,Montgomery + Radford 
+51,750,Radford city ,51933,Montgomery + Radford 
+51,143,Pittsylvania County,51939,Pittsylvania + Danville 
+51,590,Danville city ,51939,Pittsylvania + Danville 
+51,149,Prince George County,51941,Prince George + Hopewell 
+51,670,Hopewell city ,51941,Prince George + Hopewell 
+51,153,Prince William County,51942,"Prince William, Manassas + Manassas Park "
+51,683,Manassas city ,51942,"Prince William, Manassas + Manassas Park "
+51,685,Manassas Park city ,51942,"Prince William, Manassas + Manassas Park "
+51,161,Roanoke County,51944,Roanoke + Salem 
+51,775,Salem city ,51944,Roanoke + Salem 
+51,163,Rockbridge County,51945,"Rockbridge, Buena Vista + Lexington "
+51,530,Buena Vista city ,51945,"Rockbridge, Buena Vista + Lexington "
+51,678,Lexington city ,51945,"Rockbridge, Buena Vista + Lexington "
+51,165,Rockingham County,51947,Rockingham + Harrisonburg 
+51,660,Harrisonburg city ,51947,Rockingham + Harrisonburg 
+51,175,Southampton County,51949,Southampton + Franklin 
+51,620,Franklin city ,51949,Southampton + Franklin 
+51,177,Spotsylvania County,51951,Spotsylvania + Fredericksburg 
+51,630,Fredericksburg city ,51951,Spotsylvania + Fredericksburg 
+51,191,Washington County,51953,Washington + Bristol 
+51,520,Bristol city ,51953,Washington + Bristol 
+51,195,Wise County,51955,Wise + Norton 
+51,720,Norton city ,51955,Wise + Norton 
+51,199,York County,51958,York + Poquoson 
+51,735,Poquoson city ,51958,York + Poquoson 
+55,78,Menominee County,55901,Shawano (includes Menominee)
+55,115,Shawano County,55901,Shawano (includes Menominee)
