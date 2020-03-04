@@ -1,0 +1,17 @@
+﻿start,end,variable_name
+1,2,state_code_noaa
+3,5,county_code
+6,7,element_code
+8,11,year
+12,18,jan_value
+19,25,feb_value
+26,32,mar_value
+33,39,apr_value
+40,46,may_value
+47,53,jun_value
+54,60,jul_value
+61,67,aug_value
+68,74,sep_value
+75,81,oct_value
+82,88,nov_value
+89,95,dec_value
