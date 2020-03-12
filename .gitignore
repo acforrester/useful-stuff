@@ -1,5 +1,5 @@
 ## Zip files
-**.zip
-
+data/census-bureau/county-business/csv/*.csv
+data/census-bureau/county-business/zip/*.zip
 # DTAs
 **.dta
