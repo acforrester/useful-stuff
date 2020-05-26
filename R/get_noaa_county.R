@@ -38,7 +38,7 @@ get_climdiv <- function(dest, schema)
 		# make URL and output file names
 		url <- gsub("FILE", file, "ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/climdiv-FILE-v1.0.0-20200204")
 		out <- file.path(dest,gsub("FILE", file, "climdiv-FILE.csv"))
-				
+		
 		# make file if needed
 		if(!file.exists(out)){
 			dat <- read_fwf(url, setup) %>% 
@@ -57,8 +57,8 @@ get_climdiv <- function(dest, schema)
 #' ========================================================================== '#
 
 # schema and output directories
-schema <- "E:/projects/useful-stuff/data/noaa-data/county-data/schema"
-output <- "E:/projects/useful-stuff/data/noaa-data/county-data/csv"
+schema <- "data/noaa-data/county-data/schema"
+output <- "data/noaa-data/county-data/csv"
 
 # get the files
 get_climdiv(output,schema)

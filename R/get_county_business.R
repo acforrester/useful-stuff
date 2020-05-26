@@ -18,7 +18,7 @@ get_cbp <- function(years, dest)
 {
 	
 	# checks - only in 1986-2017
-	if(min(years) < 1986 || max(years) > 2017){
+	if(!years %in% 1986:2017){
 		break()
 	}
 	

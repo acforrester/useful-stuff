@@ -1,53 +1,52 @@
-﻿state_code,usps,state_name
-1,AL,Alabama
-2,AK,Alaska
-4,AZ,Arizona
-5,AR,Arkansas
-6,CA,California
-8,CO,Colorado
-9,CT,Connecticut
-10,DE,Delaware
-11,DC,District of Columbia
-12,FL,Florida
-13,GA,Georgia
-15,HI,Hawaii
-16,ID,Idaho
-17,IL,Illinois
-18,IN,Indiana
-19,IA,Iowa
-20,KS,Kansas
-21,KY,Kentucky
-22,LA,Louisiana
-23,ME,Maine
-24,MD,Maryland
-25,MA,Massachusetts
-26,MI,Michigan
-27,MN,Minnesota
-28,MS,Mississippi
-29,MO,Missouri
-30,MT,Montana
-31,NE,Nebraska
-32,NV,Nevada
-33,NH,New Hampshire
-34,NJ,New Jersey
-35,NM,New Mexico
-36,NY,New York
-37,NC,North Carolina
-38,ND,North Dakota
-39,OH,Ohio
-40,OK,Oklahoma
-41,OR,Oregon
-42,PA,Pennsylvania
-44,RI,Rhode Island
-45,SC,South Carolina
-46,SD,South Dakota
-47,TN,Tennessee
-48,TX,Texas
-49,UT,Utah
-50,VT,Vermont
-51,VA,Virginia
-53,WA,Washington
-54,WV,West Virginia
-55,WI,Wisconsin
-56,WY,Wyoming
-72,PR,Puerto Rico
+state_code,state_name,region_code,region_name,division_code,division_name
+1,Alabama,3,South Region,6,East South Central Division
+2,Alaska,4,West Region,9,Pacific Division
+4,Arizona,4,West Region,8,Mountain Division
+5,Arkansas,3,South Region,7,West South Central Division
+6,California,4,West Region,9,Pacific Division
+8,Colorado,4,West Region,8,Mountain Division
+9,Connecticut,1,Northeast Region,1,New England Division
+10,Delaware,3,South Region,5,South Atlantic Division
+11,District of Columbia,3,South Region,5,South Atlantic Division
+12,Florida,3,South Region,5,South Atlantic Division
+13,Georgia,3,South Region,5,South Atlantic Division
+15,Hawaii,4,West Region,9,Pacific Division
+16,Idaho,4,West Region,8,Mountain Division
+17,Illinois,2,Midwest Region,3,East North Central Division
+18,Indiana,2,Midwest Region,3,East North Central Division
+19,Iowa,2,Midwest Region,4,West North Central Division
+20,Kansas,2,Midwest Region,4,West North Central Division
+21,Kentucky,3,South Region,6,East South Central Division
+22,Louisiana,3,South Region,7,West South Central Division
+23,Maine,1,Northeast Region,1,New England Division
+24,Maryland,3,South Region,5,South Atlantic Division
+25,Massachusetts,1,Northeast Region,1,New England Division
+26,Michigan,2,Midwest Region,3,East North Central Division
+27,Minnesota,2,Midwest Region,4,West North Central Division
+28,Mississippi,3,South Region,6,East South Central Division
+29,Missouri,2,Midwest Region,4,West North Central Division
+30,Montana,4,West Region,8,Mountain Division
+31,Nebraska,2,Midwest Region,4,West North Central Division
+32,Nevada,4,West Region,8,Mountain Division
+33,New Hampshire,1,Northeast Region,1,New England Division
+34,New Jersey,1,Northeast Region,2,Middle Atlantic Division
+35,New Mexico,4,West Region,8,Mountain Division
+36,New York,1,Northeast Region,2,Middle Atlantic Division
+37,North Carolina,3,South Region,5,South Atlantic Division
+38,North Dakota,2,Midwest Region,4,West North Central Division
+39,Ohio,2,Midwest Region,3,East North Central Division
+40,Oklahoma,3,South Region,7,West South Central Division
+41,Oregon,4,West Region,9,Pacific Division
+42,Pennsylvania,1,Northeast Region,2,Middle Atlantic Division
+44,Rhode Island,1,Northeast Region,1,New England Division
+45,South Carolina,3,South Region,5,South Atlantic Division
+46,South Dakota,2,Midwest Region,4,West North Central Division
+47,Tennessee,3,South Region,6,East South Central Division
+48,Texas,3,South Region,7,West South Central Division
+49,Utah,4,West Region,8,Mountain Division
+50,Vermont,1,Northeast Region,1,New England Division
+51,Virginia,3,South Region,5,South Atlantic Division
+53,Washington,4,West Region,9,Pacific Division
+54,West Virginia,3,South Region,5,South Atlantic Division
+55,Wisconsin,2,Midwest Region,3,East North Central Division
+56,Wyoming,4,West Region,8,Mountain Division

@@ -1,5 +1,11 @@
 ## Zip files
 data/census-bureau/county-business/csv/*.csv
 data/census-bureau/county-business/zip/*.zip
+
+## building permits
+data/census-bureau/building-permits/**
+
 # DTAs
 **.dta
+.Rproj.user
+.Rhistory
