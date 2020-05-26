@@ -3,17 +3,22 @@
 # load packages
 library(tidyverse); library(dplyr); library(httr)
 
-# target URL
+# target URLs
 url1 <- "https://www2.census.gov/programs-surveys/popest/geographies/2018/state-geocodes-v2018.xlsx"
+url2 <- "https://www2.census.gov/geo/docs/reference/state.txt"
 
 # col names
-names <- c("region_code", "division_code", "state_code", "state_name")
+names1 <- c("region_code", "division_code", "state_code", "state_name")
+names2 <- c("state_code", "usps", "state_name", "statens")
+
+# USPS codes
+usps_codes <- read_delim(url2, delim = "|", col_names = names2, skip = 1)
 
 # sort the Excel file as temp file
 httr::GET(url1, write_disk(tf <- tempfile(fileext = ".xlsx")))
 
 # read in the UN data and format
-dat <- readxl::read_excel(tf, skip = 6, col_names = names) %>% 
+dat <- readxl::read_excel(tf, skip = 6, col_names = names1) %>% 
   
   # get region name
   group_by(region_code) %>% 
@@ -26,17 +31,20 @@ dat <- readxl::read_excel(tf, skip = 6, col_names = names) %>%
   # ungroup
   ungroup(.) %>% 
   
+  # get USPS codes
+  full_join(., usps_codes, by = c("state_code", "state_name")) %>% 
+  
   # make codes numeric
   mutate_at(., 1:3, as.numeric) %>% 
   
   # keep states
-  filter(state_code > 0) %>% 
+  filter(state_code %in% 1:56) %>% 
   
   # sort by state
   arrange(state_code) %>% 
   
   # order cols
-  select(state_code, state_name, 
+  select(state_code, state_name, usps, 
          region_code, region_name, 
          division_code, division_name) %>% 
   
